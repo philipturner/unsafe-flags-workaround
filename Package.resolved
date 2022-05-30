@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "differentiation",
+      "identity" : "pythonkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/philipturner/differentiation",
+      "location" : "https://github.com/pvieito/PythonKit",
       "state" : {
-        "branch" : "main",
-        "revision" : "3c6595970d1dd03bba5fbca054e1970cc4766129"
+        "revision" : "81f621d094a7c8923207efe5178f50dba1b56c39",
+        "version" : "0.3.1"
       }
     }
   ],

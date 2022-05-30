@@ -13,7 +13,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-      .package(url: "https://github.com/philipturner/differentiation", .branch("main")),
+      .package(url: "https://github.com/pvieito/PythonKit", from: "0.3.1")
+//      .package(url: "https://github.com/philipturner/differentiation", .branch("main")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -21,7 +22,8 @@ let package = Package(
         .target(
             name: "UnsafeFlagsWorkaround",
             dependencies: [
-              .product(name: "_Differentiation", package: "differentiation")
+              .product(name: "PythonKit", package: "PythonKit")
+//              .product(name: "_Differentiation", package: "differentiation")
             ]),
         .testTarget(
             name: "UnsafeFlagsWorkaroundTests",
