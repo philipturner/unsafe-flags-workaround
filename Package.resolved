@@ -5,6 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/philipturner/differentiation",
       "state" : {
+        "branch" : "unsafe-flags-workaround",
         "revision" : "3c6595970d1dd03bba5fbca054e1970cc4766129"
       }
     }

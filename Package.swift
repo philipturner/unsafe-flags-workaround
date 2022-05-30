@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-         .package(url: "https://github.com/philipturner/differentiation", revision: "3c6595970d1dd03bba5fbca054e1970cc4766129"),
+         .package(url: "https://github.com/philipturner/differentiation", branch: "unsafe-flags-workaround"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

@@ -1,5 +1,10 @@
 import XCTest
 @testable import UnsafeFlagsWorkaround
+import _Differentiation
+
+protocol MyProtocol: Differentiable {
+  
+}
 
 final class UnsafeFlagsWorkaroundTests: XCTestCase {
     func testExample() throws {
