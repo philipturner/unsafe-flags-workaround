@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "differentiation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/philipturner/differentiation",
+      "state" : {
+        "revision" : "3c6595970d1dd03bba5fbca054e1970cc4766129"
+      }
+    }
+  ],
+  "version" : 2
+}
