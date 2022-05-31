@@ -1,13 +1,13 @@
 import XCTest
 @testable import UnsafeFlagsWorkaround
-import PythonKit
+// import PythonKit
 //import _Differentiation
 //
 //protocol MyProtocol: Differentiable {
 //
 //}
 
-typealias MyPythonObject = PythonObject
+// typealias MyPythonObject = PythonObject
 
 final class UnsafeFlagsWorkaroundTests: XCTestCase {
     func testExample() throws {
