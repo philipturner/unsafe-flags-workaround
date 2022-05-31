@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-      .package(url: "https://github.com/pvieito/PythonKit", from: "0.3.1")
+//       .package(url: "https://github.com/pvieito/PythonKit", from: "0.3.1")
 //      .package(url: "https://github.com/philipturner/differentiation", .branch("main")),
     ],
     targets: [
@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "UnsafeFlagsWorkaround",
             dependencies: [
-              .product(name: "PythonKit", package: "PythonKit")
+//               .product(name: "PythonKit", package: "PythonKit")
 //              .product(name: "_Differentiation", package: "differentiation")
             ]),
         .testTarget(
