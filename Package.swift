@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "UnsafeFlagsWorkaround",
             dependencies: [
-//               .product(name: "PythonKit", package: "PythonKit")
+              .product(name: "PythonKit", package: "PythonKit")
 //              .product(name: "_Differentiation", package: "differentiation")
             ]),
         .testTarget(
